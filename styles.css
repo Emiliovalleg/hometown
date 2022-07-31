@@ -1,0 +1,144 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin:0;
+    text-align:center;
+    background: linear-gradient(#F2CC8F,#F4F1DE);   
+    color: whitesmoke;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow:0 0 11px black;
+    
+    
+}
+
+.header{
+    
+    background-image: url(images/valle.jpeg);
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 200px;
+    text-align: left;
+    border-bottom: 10px #81B29A solid;
+    
+}
+#valle{
+    width: 500px;
+    margin: 10px auto;
+    
+
+    
+}
+ 
+#valle-text{
+    width: 400px;
+    margin: 70px 0 0 20px;
+    padding: 10px 10px;
+    
+}
+
+#act-text{
+    background:#3D405B;
+    margin:15px auto ;
+    border-radius: 50px;
+    border: 7px #3D405B solid;
+    width: 500px;
+    
+}
+
+.container{
+    
+    
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items:center;
+    
+    
+    
+}
+
+.bike{
+    
+    background-image: url(images/bike.jpeg);
+    background-size:cover; 
+    background-position:center;
+    width:150px;
+    height:150px;
+    margin: 10px 30xp;
+    border: 5px #81B29A solid; 
+    border-radius:50%;
+    padding: 20px ;
+    
+    
+}
+
+.bike:hover{
+    background-image: url("https://media4.giphy.com/media/8FoLTQyT9Bt9u0pgWL/giphy.gif?cid=ecf05e47w71kezdvhih7imuscz9d8p7q58dv4bx3kqrytevw&rid=giphy.gif&ct=g")
+    
+}
+.sail{
+    background-image: url(images/sail.jpeg);
+    background-size:cover; 
+    background-position:center;
+    width:150px;
+    height:150px;
+    margin: 10px 30xp ;
+    border-radius:50%;
+    padding: 20px ;
+    border: 5px #81B29A solid;
+}
+.sail:hover{
+    background-image: url("https://media1.giphy.com/media/jt1Sjs3gwiVjDlusUg/giphy.gif?cid=ecf05e47ai9zcn55uwxhfnvryc2tvzktj6ws5wraoo81309w&rid=giphy.gif&ct=g")
+    
+}
+.pizza{
+    background-image: url(images/pizza.jpeg);
+    background-size:cover; 
+    background-position:center;
+    width:150px;
+    height:150px;
+    margin: 10px 30xp ;
+    border-radius:50%;
+    padding: 20px ;
+    border: 5px #81B29A solid;
+}
+
+.pizza:hover{
+    background-image: url("https://media1.giphy.com/media/9fuvOqZ8tbZOU/giphy.gif?cid=ecf05e470mpqr2aeob731iz7lcldgsm8h0dz09bkfdtj3554&rid=giphy.gif&ct=g")
+    
+}
+.emilio{
+    background-image: url(images/emiliojpg.jpg);
+    background-size:cover; 
+    background-position:center;
+    margin: 10px 0px ;
+    border-radius:50%;
+    padding: 65px ;
+    border: 5px #F2CC8F solid;
+    
+}
+
+.Guide{
+    
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center ;
+    margin: 20px auto ;
+    background: #E07A5F;
+    padding: 20px;
+     
+    
+
+}
